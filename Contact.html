@@ -6,34 +6,37 @@
     <title>Contact</title>
   </head>
   <body>
-        <div class="page-header">   
-                <header>
-                  <h1>Jordan</h1>
-                    <div  class="topnav">
-                      <ul>
-                        <li><a href="index.html">About Me</a></li>
-                        <li><a href="Portfolio.html">Portfolio</a></li>
-                        <li><a href="Contact.html">Contact</a></li>
-                      </ul>
-                    </div>
-                </header>
-              </div>
-        <h1>Contact Me</h1>
-            <hr>
+      <div  class="topnav">
+          <header>
+              <h1>Jordan Beaman</h1>
+          <ul>
+            <li><a class="links"href="index.html">About Me</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+      
 <!--Contact Info Form-->
-            <form>
-                Name:<br>
-                <input type="text" name="name">
-                <br>
-                Email:<br>
-                <input type="text" name="Email">
-                <br>
-                Message:<br>
-                <input type="text" name="message">
-                <br>
-                <br>
-                <input type="button" value="Submit">
-            </form>
+<div class="container">
+    <h1>Contact Me</h1>
+            <hr class="chr">
+    <form>
+  
+      <label for="name">First Name</label>
+      <input type="text" id="name" name="firstname" placeholder="First and Last Name">
+
+      <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Email Address">
+
+    <label for="subject">Subject</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
     </div>
+    <footer id="sticky">
+        Copyright ©
+      </footer>
   </body>
 </html>
