@@ -64,6 +64,7 @@ li a{
     max-width: 960px;
     margin: auto;
     margin-top: 20px;
+    padding-left: 10px;
 
     border: 1px solid;
     padding: 10px;
@@ -154,16 +155,22 @@ input[type=submit] {
     display: table;
   }
 
-  .imgcontainer{
-      position: relative;
-  }
 
-  .text-block {
+.imgcontainer .content {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 96%;
+    padding: 5px;
+    bottom: 4px;
+}
+.imgcontainer {
+    position: relative; 
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.imghead{
+    margin-left: 60px;
 }
